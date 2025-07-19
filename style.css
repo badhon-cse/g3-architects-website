@@ -100,6 +100,7 @@ main {
   display: flex;
   align-items: center;
   margin-top: 85px;
+  margin-bottom: 130px;
 }
 
 .feature-images {
@@ -124,6 +125,51 @@ main {
 }
 
 /* Features you will love CSS */
+.features2 {
+  gap: 146px;
+}
+
+.feature2-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+
+.feature2-description {
+  margin-bottom: 30px;
+}
+.feature2-card {
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.feature2-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.feature2-image {
+  width: 100%;
+}
+
+.experience-year {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.experience-badge button {
+  padding: 45px 42px;
+}
+
+.experience-badge {
+  margin-top: -100px;
+  margin-left: -100px;
+}
 
 /* some facts CSS */
 
@@ -207,7 +253,8 @@ main {
   .navbar,
   .features,
   .facts,
-  .sponsors {
+  .sponsors,
+  .features2 {
     flex-direction: column;
   }
 
@@ -223,6 +270,20 @@ main {
   }
   .sponsors {
     padding-left: 0;
+  }
+
+  .experience-badge {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .experience-year {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .experience-badge button {
+    padding: 15px;
   }
 }
 
